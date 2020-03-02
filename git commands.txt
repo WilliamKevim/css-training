@@ -1,0 +1,63 @@
+---------COMANDOS INICIAIS----------------
+
+git -l -> mostra as configs
+
+git status -> mostrar os status das suas branchs
+
+git add -> adicionar na staging area
+
+git rm <file> -> remoção de arquivos, parecido com o add, se der commit iremosdeletar do repositório do git
+
+git add --all -> faz todas as ações de deleção e adição
+
+git rm -rf <file> --cached -> retira os arquivos da staging area (depois do add)
+
+git commit -a -m ou (-am) "mensagem" -> adiciona tudo que já existe no repositório e commita ao mesmo tempo
+
+git commit -m "" --amend -> substituir a última msg
+
+------BRANCHS--------
+
+git branch --orphan <nome> -> criar branch totalmente em branco
+
+git branch -> mostrar a branch
+git branch <nome> -> criar uma branch
+git checkout -b <nome> -> adicionar uma nova branch e mudar para ela
+git checkout <nome> -> mudar de branch
+git merge <nome da branch> -> uni a branch em que vc está com a branch a qual você quer juntar 
+git branch -m <nome> -> renomear branch
+git branch -D <nome> <nome2> -> deletar branchs
+
+deletar branch no github: deletar branch local e depois git push origin <branch> --Delete
+
+--------REPOSITÓRIOS------------
+
+git remote add <nome do repo> <link> -> adiciona um repositório
+git remote -v -> mostra todos os repositórios existentes
+git push <repo name> <branch> -> empurrar do staging area para o repositório
+git clone <link do repo> <pasta>-> clonar repositório
+
+-------COMANDOS ADICIONAIS----------
+
+git diff -> mostrar as mudanças
+git diff <file> -> apenas no arquivo
+git diff --stage -> mostrar as mudanças quando add
+
+git log --name-status -> as mudanças feitas, dentro do log
+
+git diff <hash(7)commit> <hash(7)commit> -> mostrar diferença entre commits
+
+TEM COMO ADICIONAR UM .gitignore global, é só criar o arquivo e adicionar ele no: 
+	git config --global core.excludesfile <file>
+
+COMMITS ELABORADOS -> git commit, vai abrir o terminal do unix, e lá pode escrever a vontade... Para sair ctrl+c e :wq, para cancelar (:qa!)
+
+git config --global core.editor "nome do editor"
+
+git log --pretty=oneline -> dá uma linha no log
+git log --abbrev-commit
+git log --stats
+
+Quando algum arquivo é deletado ou perdido há como recuperar:
+	
+

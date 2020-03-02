@@ -1,0 +1,10 @@
+Criar um formulário no html:
+
+o formulário deve ter uma imagem na parte superior
+e os campos devem ser: nome, email, senha e confirmação de senha (não é necessário fazer a verificação)
+
+tags que serão utilizadas: <img>, <input>, <div>, <h3> ou <h2> 
+
+O objetivo é fazer o formulário o mais bonito possível, e aprender css nesse processo, não esperamos que seja utilizado javascript.
+
+O prazo de entrega é até quarta-feira, dia 04/03/2020

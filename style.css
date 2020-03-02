@@ -1,0 +1,66 @@
+body {
+  background: #fff;
+  text-align: center;
+}
+
+.wrapper {
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.circle {
+  border: black solid 10px;
+  width: 100px;
+  line-height: 0;
+  padding: 50px 0;
+  cursor: pointer;
+  margin: 200px auto;
+  border-radius: 50px;
+  background-color: pink;
+  color: white;
+  transition: background 1s, transform 5s ease-in;
+}
+
+.circle:hover {
+  background: salmon;
+  transform: rotate(2880deg);
+}
+
+#id-unico {
+  background: black;
+}
+
+img {
+  border: black solid 10px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  animation-name: pingu;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+  animation-delay: 2s;
+}
+
+@keyframes pingu {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(600px);
+  }
+}
+
+.caixa p {
+  left: 20px;
+  background: red;
+  font-size: 30px;
+  font-weight: bolder;
+  color: white;
+  border-radius: 3em;
+}
+
+.wrap-box {
+  text-align: justify;
+  background-color: rgba(0, 255, 0, 1);
+}
