@@ -7,4 +7,4 @@ tags que serão utilizadas: <img>, <input>, <div>, <h3> ou <h2>
 
 O objetivo é fazer o formulário o mais bonito possível, e aprender css nesse processo, não esperamos que seja utilizado javascript.
 
-O prazo de entrega é até quarta-feira, dia 04/03/2020.
+O prazo de entrega é até quarta-feira, dia 04/03/2020..
