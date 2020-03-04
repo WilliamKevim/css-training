@@ -1,0 +1,36 @@
+*{
+    margin:0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  }
+  
+.imagem {
+    margin-top: 100px;
+    padding: 0;
+}
+
+img {
+    height: auto; 
+    width: 200px;
+}
+.dados {
+    align-items: center;
+    margin-top: 100px;
+    width: 40%;
+    display: flex;
+     flex-direction: column;
+     justify-content: center;
+   }
+.input-formulario {
+    margin-bottom: 15px;
+    padding-left: 5px;    
+    width: 80%;
+}
+#botao-formulario{
+    width: 150px;
+}
