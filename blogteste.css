@@ -1,0 +1,33 @@
+*{
+    margin:0;
+}
+
+body {
+}
+
+.line {
+   display:flex;
+   justify-content: space-between;
+   align-items: center;
+
+   background-color:rgb(168, 168, 168);
+   
+}
+  
+.imagem {
+    padding: 0;
+}
+
+img {
+    width: 80px;
+}
+
+.menu {
+    text-decoration: none;
+    margin-right: 20px;
+    font-size: 20px;
+    color: blue;
+}
+
+.menu:hover{
+    color: white;
