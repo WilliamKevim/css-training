@@ -43,3 +43,54 @@ img {
     outline: none;
     box-shadow: 2px 2px 27px black;
 }
+
+
+
+*{
+    margin:0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  }
+  
+.imagem {
+    margin-top: 100px;
+    padding: 0;
+}
+
+img {
+    height: auto; 
+    width: 200px;
+}
+.dados {
+    align-items: center;
+    margin-top: 50px;
+    width: 30%;
+    display: flex;
+     flex-direction: column;
+     justify-content: center;
+   }
+.input-formulario {
+    margin-bottom: 30px;
+    padding-left: 5px; 
+    height: 30px;   
+    width: 80%;
+    border-width: 4px;
+    border-color: black;
+    border-radius: 5px;
+    outline: none;
+}
+#botao-formulario{
+    width: 150px;
+    height: 47px;
+    border: none;
+    border-radius: 22px;
+    outline: none;
+}
+
+#botao-formulario:hover{
+    cursor: pointer;
